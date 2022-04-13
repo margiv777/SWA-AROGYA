@@ -23,7 +23,7 @@ This project is an end to end data science project that is able to predict the c
  
 
  # Steps used for running this project:
- a. Download this project and extract zip file or cone it using GitHub desktop.<br>
+ a. Download this project and extract zip file or clone it using GitHub desktop.<br>
  b. Run the index.html file.<br>
  c. To run each module, go to its API folder and run the app.py in the respectve directory.<br>
  d. The ML model will give prediction and confidence of each input by the user.<br>
