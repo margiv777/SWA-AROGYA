@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "sPoppins", sans-serif;
+  background-color: darkmagenta;
+}
+h1 {
+  margin: auto;
+  color: white;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
