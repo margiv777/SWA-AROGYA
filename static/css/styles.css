@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  min-height: 10vh;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.landing-image {
+  overflow: hidden;
+  object-fit: contain;
+  overflow: hidden;
+}
+.landing-img
+{
+width: 100vw;
+}
+.collapse {
+  position: absolute;
+  right: 8rem;
+}
+.features {
+  margin-top: 5rem;
+}
+.info-wrap {
+  margin-top: 5rem;
+}
+.info-wrap {
+  font-size: 1.5rem;
+}
+.lefthand {
+  animation: hand-motion 1.5s alternate infinite;
+}
+.money {
+  animation: money-motion 1.5s alternate-reverse infinite;
+}
+.righthand {
+  animation: hand-motion-right 1s alternate-reverse infinite;
+}
+@keyframes hand-motion {
+  from {
+    transform: translateX(10%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes money-motion {
+  from {
+    transform: translateY(-5%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes hand-motion-right {
+  from {
+    transform: translateX(-5%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
