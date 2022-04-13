@@ -21,12 +21,12 @@ This project is an end to end data science project that is able to predict the c
  7. HTML & CSS
  
  
- 
- # Steps used for Deployment:
- a. Created the ML model and saved it using joblib.<br>
- b. Created app.py and the webpage page it will render to.<br>
- c. Created an EC2 instance over RHEL8.<br>
- d. Similarly Deployed all models and connected them to the home page inside apache web server.<br>
+
+ # Steps used for running this project:
+ a. Download this project and extract zip file or cone it using GitHub desktop.
+ b. Run the index.html file.
+ c. To run each module, go to its API folder and run the app.py in the respectve directory.
+ d. The ML model will give prediction and confidence of each input by the user.
  
  # Project Created by:
   [Margiv Amin](https://www.linkedin.com/in/margivkumar-amin-7113951b3/)        
